@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1000px) {
+	  #menu{ width:100%;
+  			margin-left:14.5%;}}
+ 
+
+@media screen and (max-width: 768px) {
+#menu_HOME a{ width:50%;}
+header h1 {width:70%;
+margin-left:20%;
+margin-top:2%;
+font-size:1.1em; }
+ img {	width: -45px;
+		height: 114px;
+		padding-left: 19%;
+		padding-right: 13%;}
+   ul li a{ 
+			font-size:1.1em;
+			float:left;
+			display:inline;
+			margin-left:7%;
+			margin-right:7%;}
+#content{ 	width:100/2%;
+			margin: 50/2 %;}
+ul{ clear:both; width:80% ;}
+	  
+ #imag{ height:70PX;} }
