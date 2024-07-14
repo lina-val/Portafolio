@@ -1,1 +1,2 @@
-[https://github.com/](https://raw.githubusercontent.com/)lina-val/Portafolio/Captura de pantalla 2024-07-13 194547.png
+Portafolio
+<span>![</span><span>captura de pagina</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/lina-val/Portafolio/master/Captura.png</span><span>)</span>
