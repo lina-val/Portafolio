@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>	Contacto</title>
+<link rel="stylesheet"  type="text/css" href="1.css">
+<link rel="icon" type="image/png" href="img/1.png" />
+<link rel="stylesheet"  type="text/css" href="fuente.css">
+
+
+</head>
+
+<body>
+
+       
+        <header style="width:90%; margin:0 5%;" id="CABEZA">
+        
+                    <nav  style=" margin-left:2.5%" >         <ul><li class="right"><a href="biografia.html">BIOGRAFÍA</a></li>
+                                        <li class="right"><a href="galeria.html">GALERIA</a></li>
+                                        
+                    
+                                    </ul>
+                    </nav>
+        
+        <div id="logo_">
+        <a  href="index.html"><img src="img/2.0.jpg"/><img src="img/2.jpg"/></a>
+        </div>
+        <nav style="">
+        <ul>
+        <li><a href="proyecto.html">ARTICULOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li></ul>
+        </nav>
+        </header>
+        <section class="TITULO_">
+<a href="contacto.html"><h2 >CONTACTO</h2></a>
+</section>
+<section class="conteacto">
+<form class="principal__formulario" data-formulario> 
+<fieldset class="formulario__campo">
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text" id="nombre" class="input-p" maxlength="50" minlength="3" placeholder="Nombre" required>
+<span class="mensaje-error"></span>
+</fieldset>
+<fieldset class="formulario__campo">
+            <label for="correoelectronico">Correo electronico</label>
+            <input name="email" type="email" id="correoelectronico" class="input-p" minlength="6" required placeholder="texto@texto.com">
+	<span class="mensaje-error"></span>
+</fieldset>
+<fieldset class="formulario__campo">			
+			<label for="Asunto">Asunto</label>
+            <input name="asunto" type="text" id="Asunto" class="input-p" maxlength="50" minlength="4" placeholder="Asunto" required>
+	<span class="mensaje-error"></span>
+</fieldset>
+
+  <fieldset class="formulario__campo"> 
+      <label for="mensaje">mensaje</label>
+            <textarea name="mensaje" cols="100" rows="5" ide="mensaje" placeholder="Dime, ¿En que te puedo ayudar?" maxlength="300" minlength="2" class="input-mensaje" required></textarea>
+	  <span class="mensaje-error"></span>
+</fieldset>
+<div>
+            <input value="Enviar" type="submit"
+              class="formulario__boton"
+              id="enviar"
+              data-boton-enviar >
+	</div>
+        </form>
+
+        
+</section>
+
+<footer><p>Valeria Vp © 2024. Derechos Reservados.</p></footer>
+<script src="js/main.js"></script>
+</body>
+
+</html>
